@@ -1,5 +1,7 @@
 package studio4;
 
+import java.awt.Color;
+
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
@@ -23,34 +25,74 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void norway() {
-		StdDraw.setXscale(0, 22);
-		StdDraw.setYscale(0, 16);
+		StdDraw.setXscale(0, 1);
+		StdDraw.setYscale(0, 1);
 		mother();
 	}
 
 	public static void france() {
 		
 		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(0.5, 0.5, 0.1, 0.18);
+		StdDraw.setPenColor(Color.blue);
+		StdDraw.filledRectangle(0.3, 0.5, 0.1, 0.18);
+		StdDraw.setPenColor(Color.red);
+		StdDraw.filledRectangle(0.7, 0.5, 0.1, 0.18);
+		
+		StdDraw.setPenColor(Color.BLACK);
+		StdDraw.rectangle(0.5, 0.5, 0.3, 0.18);
 	}
 
 	public static void indonesia() {
 		
 		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.red);
+		StdDraw.filledRectangle(0.5, 0.6, 0.36, 0.2);
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(0.5, 0.3, 0.36, 0.2);
 	}
 
 	public static void netherlands() {
 		
 		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.red);
+		StdDraw.filledRectangle(0.5, 0.7, 0.3, 0.18);
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(0.5, 0.5, 0.3, 0.18);
+		StdDraw.setPenColor(Color.blue);
+		StdDraw.filledRectangle(0.5, 0.3, 0.3, 0.18);
 	}
 
 	public static void poland() {
 		
 		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(0.5, 0.6, 0.36, 0.2);
+		StdDraw.setPenColor(Color.red);
+		StdDraw.filledRectangle(0.5, 0.3, 0.36, 0.2);
 	}
 
 	public static void thailand() {
 		
 		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.red);
+		StdDraw.filledRectangle(0.5, 0.9, 0.5, 0.1);
+		StdDraw.setPenColor(Color.red);
+		StdDraw.filledRectangle(0.5, 0.1, 0.5, 0.1);
+		StdDraw.setPenColor(Color.blue);
+		StdDraw.filledRectangle(0.5, 0.5, 0.5, 0.2);
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(0.5, 0.7, 0.5, 0.1);
+		StdDraw.setPenColor(Color.white);
+		StdDraw.filledRectangle(0.5, 0.3, 0.5, 0.1);
+		
+		
 	}
 
 	public static void finland() {
